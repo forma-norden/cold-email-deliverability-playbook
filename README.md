@@ -8,12 +8,15 @@ diagnostics into reproducible workflows.
 
 | File | What it does |
 |------|-------------|
-| `.agents/skills/deliverability-infrastructure-baseline.md` | Defines domain and authentication baseline before campaign launch. |
-| `.agents/skills/deliverability-provider-strategy.md` | Selects and runs provider-specific strategy with mailbox mix and ramp policy. |
-| `.agents/skills/deliverability-copy-campaign-structure.md` | Applies copy and campaign structure rules that reduce filter risk. |
-| `.agents/skills/deliverability-monitoring-diagnostics.md` | Monitors core deliverability metrics and identifies likely failure causes. |
-| `.agents/skills/deliverability-recovery-runbook.md` | Executes staged recovery when inbox placement degrades. |
-| `tests/` | Prompt-based tests and validation checklists for all five skills. |
+| .agents/skills/SKILL.md | Orchestrator and routing logic |
+| .agents/skills/deliverability-infrastructure-baseline.md | Defines domain and authentication baseline before campaign launch. |
+| .agents/skills/deliverability-provider-strategy.md | Selects and runs provider-specific strategy with mailbox mix and ramp policy. |
+| .agents/skills/deliverability-copy-campaign-structure.md | Applies copy and campaign structure rules that reduce filter risk. |
+| .agents/skills/deliverability-monitoring-diagnostics.md | Monitors core deliverability metrics and identifies likely failure causes. |
+| .agents/skills/deliverability-recovery-runbook.md | Executes staged recovery when inbox placement degrades. |
+| .agents/skills/deliverability-infrastructure-setup.md | Technical guide for DMARC, DKIM, SPF, and custom tracking domains. |
+| esources/benchmarks/deliverability-benchmarks.md | Bounce rate, spam complaint, and placement targets to monitor. |
+| ECOSYSTEM.md | Cross-repo connectivity map |
 
 ## Prerequisites
 
@@ -80,4 +83,5 @@ If this saves you time, star the repo and follow
 [Forma Nôrden on LinkedIn](https://www.linkedin.com/company/formanorden/).
 
 Built by [Forma Nôrden](https://formanorden.com/) - GTM engineering for B2B companies.
+
 
